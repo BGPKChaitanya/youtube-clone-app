@@ -1,0 +1,52 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-inner-wrapper {
+  border-style: hidden;
+  padding: 30px;
+  border-width: 100;
+  border-radius: 20px;
+  box-shadow: dimgrey 3px 3px 3px 3px;
+
+  img {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 15px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    label {
+      font-size: 18px;
+      font-family: "Roboto";
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      height: 20px;
+      margin-bottom: 5px;
+      outline: none;
+      padding: 5px;
+    }
+
+    button {
+      background-color: brown;
+      border-style: none;
+      padding: 8px;
+      width: 100px;
+      color: #ffffff;
+      font-size: 15px;
+      margin-top: 5px;
+      font-family: "roboto";
+    }
+  }
+}

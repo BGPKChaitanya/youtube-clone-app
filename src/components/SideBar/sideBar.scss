@@ -1,0 +1,54 @@
+.home-container {
+  width: 15%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  background-color: aquamarine;
+
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 20px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+
+    p {
+      margin-left: 10px;
+      margin: 10px;
+      text-decoration: none;
+      color: #000000;
+      font-family: "Roboto";
+    }
+  }
+}
+
+.contact-container {
+  padding-left: 10px;
+
+  h3 {
+    font-size: 15px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 20px;
+    }
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
